@@ -49,6 +49,7 @@ class App extends React.Component {
     
   }
 
+ // Delete function
   clearCompleted = () => {
     console.log("clearCompleted");
     this.setState({
