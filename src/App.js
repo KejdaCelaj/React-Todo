@@ -53,7 +53,7 @@ class App extends React.Component {
     console.log("clearCompleted");
     this.setState({
       todo: this.state.todo.filter(item => {
-        return !item.completed;
+        return item.completed;
       })
     });
   }
